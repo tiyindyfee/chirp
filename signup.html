@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chirp</title>
+  <meta name="description" content="A Better Social Network">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <br />
+    <div class="jumbotron text-center">
+      <img width="200" src="/img/chirp-logo.png" alt="Chirp!" /><br /><br />
+      <p class="lead">The Cheep Social Network</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" class="form-control" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="photo">Photo URL</label>
+          <input type="text" id="photo" name="photo" class="form-control" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" class="form-control" />
+        </div>
+      </div>
+    </div>
+    <div class="text-right">
+      <button type="button" id="btnSignup" class="btn btn-success btn-lg">Let's Get Chirping!</button>
+    </div>
+  </div>
+  <script src="/js/config.js"></script>
+  <script src="/js/signup.js"></script>
+</body>
+</html>
